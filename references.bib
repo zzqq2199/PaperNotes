@@ -1,0 +1,1013 @@
+
+@article{checkmate,
+  title={Checkmate: Breaking the memory wall with optimal tensor rematerialization},
+  author={Jain, Paras and Jain, Ajay and Nrusimha, Aniruddha and Gholami, Amir and Abbeel, Pieter and Gonzalez, Joseph and Keutzer, Kurt and Stoica, Ion},
+  journal={Proceedings of Machine Learning and Systems},
+  volume={2},
+  pages={497--511},
+  year={2020}
+}
+@article{tang2022delta,
+  title={DELTA: Dynamically Optimizing GPU Memory beyond Tensor Recomputation},
+  author={Tang, Yu and Wang, Chenyu and Zhang, Yufan and Liu, Yuliang and Zhang, Xingcheng and Qiao, Linbo and Lai, Zhiquan and Li, Dongsheng},
+  journal={arXiv preprint arXiv:2203.15980},
+  year={2022}
+}
+
+@article{megatron3,
+  title={Reducing Activation Recomputation in Large Transformer Models},
+  author={Korthikanti, Vijay and Casper, Jared and Lym, Sangkug and McAfee, Lawrence and Andersch, Michael and Shoeybi, Mohammad and Catanzaro, Bryan},
+  journal={arXiv preprint arXiv:2205.05198},
+  year={2022}
+}
+
+
+@inproceedings{courbariaux2015binaryconnect,
+  title={Binaryconnect: Training deep neural networks with binary weights during propagations},
+  author={Courbariaux, Matthieu and Bengio, Yoshua and David, Jean-Pierre},
+  booktitle={Advances in neural information processing systems},
+  pages={3123--3131},
+  year={2015}
+}
+@article{gpipe,
+  title={Gpipe: Efficient training of giant neural networks using pipeline parallelism},
+  author={Huang, Yanping and Cheng, Youlong and Bapna, Ankur and Firat, Orhan and Chen, Dehao and Chen, Mia and Lee, HyoukJoong and Ngiam, Jiquan and Le, Quoc V and Wu, Yonghui and others},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+ 
+@inproceedings{rhu2016vdnn,
+  title={vDNN: Virtualized deep neural networks for scalable, memory-efficient neural network design},
+  author={Rhu, Minsoo and Gimelshein, Natalia and Clemons, Jason and Zulfiqar, Arslan and Keckler, Stephen W},
+  booktitle={2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},
+  pages={1--13},
+  year={2016},
+  organization={IEEE}
+}
+@inproceedings{zero,
+  title={Zero: Memory optimizations toward training trillion parameter models},
+  author={Rajbhandari, Samyam and Rasley, Jeff and Ruwase, Olatunji and He, Yuxiong},
+  booktitle={SC20: International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={1--16},
+  year={2020},
+  organization={IEEE}
+}
+@article{zero-offload,
+  title={Zero-offload: Democratizing billion-scale model training},
+  author={Ren, Jie and Rajbhandari, Samyam and Aminabadi, Reza Yazdani and Ruwase, Olatunji and Yang, Shuangyan and Zhang, Minjia and Li, Dong and He, Yuxiong},
+  journal={arXiv preprint arXiv:2101.06840},
+  year={2021}
+}
+
+@article{chen2016training,
+  title={Training deep nets with sublinear memory cost},
+  author={Chen, Tianqi and Xu, Bing and Zhang, Chiyuan and Guestrin, Carlos},
+  journal={arXiv preprint arXiv:1604.06174},
+  year={2016}
+}
+@inproceedings{wang2018superneurons,
+  title={Superneurons: Dynamic GPU memory management for training deep neural networks},
+  author={Wang, Linnan and Ye, Jinmian and Zhao, Yiyang and Wu, Wei and Li, Ang and Song, Shuaiwen Leon and Xu, Zenglin and Kraska, Tim},
+  booktitle={Proceedings of the 23rd ACM SIGPLAN symposium on principles and practice of parallel programming},
+  pages={41--53},
+  year={2018}
+}
+@inproceedings{kim2019parallax,
+  title={Parallax: Sparsity-aware Data Parallel Training of Deep Neural Networks},
+  author={Kim, Soojeong and Yu, Gyeong-In and Park, Hojin and Cho, Sungwoo and Jeong, Eunji and Ha, Hyeonmin and Lee, Sanha and Jeong, Joo Seong and Chun, Byung-Gon},
+  booktitle={Proceedings of the Fourteenth EuroSys Conference 2019},
+  pages={43},
+  year={2019},
+  organization={ACM}
+}
+
+%GradDrop
+@article{aji2017sparse,
+  title={Sparse communication for distributed gradient descent},
+  author={Aji, Alham Fikri and Heafield, Kenneth},
+  journal={arXiv preprint arXiv:1704.05021},
+  year={2017}
+}
+%DGC
+@article{lin2017deep,
+  title={Deep gradient compression: Reducing the communication bandwidth for distributed training},
+  author={Lin, Yujun and Han, Song and Mao, Huizi and Wang, Yu and Dally, William J},
+  journal={arXiv preprint arXiv:1712.01887},
+  year={2017}
+}
+
+% TBQ
+@inproceedings{strom2015scalable,
+ title={Scalable distributed DNN training using commodity GPU cloud computing},
+  author={Strom, Nikko},
+  booktitle={Proceedings of Sixteenth Annual Conference of the International Speech Communication Association},
+ year={2015}
+}
+
+%TernGrad
+@inproceedings{wen2017terngrad,
+  title={Terngrad: Ternary gradients to reduce communication in distributed deep learning},
+  author={Wen, Wei and Xu, Cong and Yan, Feng and Wu, Chunpeng and Wang, Yandan and Chen, Yiran and Li, Hai},
+  booktitle={Proceedings of Advances in neural information processing systems},
+  pages={1509--1519},
+  year={2017}
+}
+
+%ECQ-SGD
+@article{wu2018error,
+  title={Error compensated quantized SGD and its applications to large-scale distributed optimization},
+  author={Wu, Jiaxiang and Huang, Weidong and Huang, Junzhou and Zhang, Tong},
+  journal={arXiv preprint arXiv:1806.08054},
+  year={2018}
+}
+
+@inproceedings{peng2019bytescheduler,
+  title={A generic communication scheduler for distributed DNN training acceleration},
+  author={Peng, Yanghua and Zhu, Yibo and Chen, Yangrui and Bao, Yixin and Yi, Bairen and Lan, Chang and Wu, Chuan and Guo, Chuanxiong},
+  booktitle={Proceedings of the 27th ACM Symposium on Operating Systems Principles (ACM SOSP 2019), Huntsville, Ontario, Canada, October 27-30, 2019},
+  year={2019}
+}
+
+@article{hashemi2018tictac,
+  title={TicTac: Accelerating distributed deep learning with communication scheduling},
+  author={Hashemi, Sayed Hadi and Jyothi, Sangeetha Abdu and Campbell, Roy H},
+  journal={arXiv preprint arXiv:1803.03288},
+  year={2018}
+}
+
+@article{jayarajan2019priority,
+  title={Priority-based parameter propagation for distributed DNN training},
+  author={Jayarajan, Anand and Wei, Jinliang and Gibson, Garth and Fedorova, Alexandra and Pekhimenko, Gennady},
+  journal={arXiv preprint arXiv:1905.03960},
+  year={2019}
+}
+
+@article{horovod,
+  author    = {Alexander Sergeev and
+               Mike Del Balso},
+  title     = {Horovod: fast and easy distributed deep learning in TensorFlow},
+  journal   = {CoRR},
+  volume    = {abs/1802.05799},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1802.05799},
+  archivePrefix = {arXiv},
+  eprint    = {1802.05799},
+  timestamp = {Mon, 13 Aug 2018 16:46:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1802-05799},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{chen2015mxnet,
+  title={MXNet: A flexible and efficient machine learning library for heterogeneous distributed systems},
+  author={Chen, Tianqi and Li, Mu and Li, Yutian and Lin, Min and Wang, Naiyan and Wang, Minjie and Xiao, Tianjun and Xu, Bing and Zhang, Chiyuan and Zhang, Zheng},
+  journal={arXiv preprint arXiv:1512.01274},
+  year={2015}
+}
+
+@inproceedings{abadi2016tensorflow,
+  title={TensorFlow: A System for Large-Scale Machine Learning.},
+  author={Abadi, Mart{\'\i}n and Barham, Paul and Chen, Jianmin and Chen, Zhifeng and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and Ghemawat, Sanjay and Irving, Geoffrey and Isard, Michael and others},
+  booktitle={Proceedings of OSDI},
+  volume={16},
+  pages={265--283},
+  year={2016}
+}
+
+@inproceedings{li2014scaling,
+  title={Scaling Distributed Machine Learning with the Parameter Server.},
+  author={Li, Mu and Andersen, David G and Park, Jun Woo and Smola, Alexander J and Ahmed, Amr and Josifovski, Vanja and Long, James and Shekita, Eugene J and Su, Bor-Yiing},
+  booktitle={Proceedings of OSDI},
+  volume={14},
+  pages={583--598},
+  year={2014}
+}
+
+
+@Misc{paddlepaddlecode,
+title = {{PaddlePaddle GitHub Source Code}},
+howpublished = {\url{https://github.com/PaddlePaddle/Paddle}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{open-source-Terngrad,
+title = {{TernGrad implemented in PyTorch}},
+howpublished = {\url{https://github.com/pytorch/pytorch/blob/master/caffe2/operators/fused_rowwise_random_quantization_ops.cc}},
+note = "[Online; accessed July-2022]",
+}
+
+
+@Misc{bank-conflicts-in-GPU,
+title = {{Bank conflict in GPU}},
+howpublished=
+{\url{https://devblogs.nvidia.com/using-shared-memory-cuda-cc/}},
+note="[Online; accessed July-2022]",
+}
+
+@Misc{open-source-TBQ,
+title = {{Two-bit Quantization in MXNet}},
+howpublished = {\url{https://github.com/apache/incubator-mxnet/blob/master/src/kvstore/gradient_compression-inl.h}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{bank-conflict,
+title = {{bank conflict in cuda}},
+howpublished = {\url{https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#maximize-memory-throughput}},
+note = "[Online; accessed July-2022]",
+}
+
+@inproceedings{Peng2018Optimus,
+ author = {Peng, Yanghua and Bao, Yixin and Chen, Yangrui and Wu, Chuan and Guo, Chuanxiong},
+ title = {Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters},
+ booktitle = {Proceedings of the Thirteenth EuroSys Conference},
+ series = {EuroSys '18},
+ year = {2018},
+ isbn = {978-1-4503-5584-1},
+ location = {Porto, Portugal},
+ pages = {3:1--3:14},
+ articleno = {3},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/3190508.3190517},
+ doi = {10.1145/3190508.3190517},
+ acmid = {3190517},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {deep learning, resource management},
+} 
+
+@article{devlin2018bert,
+  title={Bert: Pre-training of deep bidirectional transformers for language understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1810.04805},
+  year={2018}
+}
+
+%data parallelism
+@inproceedings{dean2012large,
+  title={Large scale distributed deep networks},
+  author={Dean, Jeffrey and Corrado, Greg and Monga, Rajat and Chen, Kai and Devin, Matthieu and Mao, Mark and Ranzato, Marc'aurelio and Senior, Andrew and Tucker, Paul and Yang, Ke and others},
+  booktitle={Proceedings of Advances in neural information processing systems},
+  pages={1223--1231},
+  year={2012}
+}
+
+@Misc{NCCL,
+title = {{NVIDIA collective communications library (NCCL)}},
+howpublished = {\url{https://developer.nvidia.com/nccl}},
+note = "[Online; accessed July-2022]",
+}
+
+@inproceedings{li2013parameter,
+  title={Parameter server for distributed machine learning},
+  author={Li, Mu and Zhou, Li and Yang, Zichao and Li, Aaron and Xia, Fei and Andersen, David G and Smola, Alexander},
+  booktitle={Proceedings of Big Learning NIPS Workshop},
+  volume={6},
+  pages={2},
+  year={2013}
+}
+
+
+@Misc{Tensorflow,
+title = {{TensorFlow Homepage}},
+howpublished = {\url{https://tensorflow.org/}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{MXNetWebsite,
+title = {{MXNet Homepage}},
+howpublished = {\url{https://mxnet.incubator.apache.org/}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{Pytorch,
+title = {{Pytorch Homepage}},
+howpublished = {\url{https://pytorch.org/}},
+note = "[Online; accessed July-2022]",
+}
+
+@article{jia2018highly,
+  title={Highly scalable deep learning training system with mixed-precision: Training imagenet in four minutes},
+  author={Jia, Xianyan and Song, Shutao and He, Wei and Wang, Yangzihao and Rong, Haidong and Zhou, Feihu and Xie, Liqiang and Guo, Zhenyu and Yang, Yuanzhou and Yu, Liwei and others},
+  journal={arXiv preprint arXiv:1807.11205},
+  year={2018}
+}
+
+@inproceedings{asadi2013training,
+  title={Training efficient tree-based models for document ranking},
+  author={Asadi, Nima and Lin, Jimmy},
+  booktitle={Proceedings of European Conference on Information Retrieval},
+  pages={146--157},
+  year={2013},
+  organization={Springer}
+}
+
+@inproceedings{subramoni2009rdma,
+  title={Rdma over ethernet—a preliminary study},
+  author={Subramoni, Hari and Lai, Ping and Luo, Miao and Panda, Dhabaleswar K},
+  booktitle={Proceedings of 2009 IEEE International Conference on Cluster Computing and Workshops},
+  pages={1--9},
+  year={2009},
+  organization={IEEE}
+}
+
+@inproceedings{luo2018parameter,
+  title={Parameter hub: a rack-scale parameter server for distributed deep neural network training},
+  author={Luo, Liang and Nelson, Jacob and Ceze, Luis and Phanishayee, Amar and Krishnamurthy, Arvind},
+  booktitle={Proceedings of the ACM Symposium on Cloud Computing},
+  pages={41--54},
+  year={2018},
+  organization={ACM}
+}
+
+@article{xie2015distributed,
+  title={Distributed machine learning via sufficient factor broadcasting},
+  author={Xie, Pengtao and Kim, Jin Kyu and Zhou, Yi and Ho, Qirong and Kumar, Abhimanu and Yu, Yaoliang and Xing, Eric},
+  journal={arXiv preprint arXiv:1511.08486},
+  year={2015}
+}
+
+@inproceedings{zhang2017poseidon,
+  title={Poseidon: An efficient communication architecture for distributed deep learning on GPU clusters},
+  author={Zhang, Hao and Zheng, Zeyu and Xu, Shizhen and Dai, Wei and Ho, Qirong and Liang, Xiaodan and Hu, Zhiting and Wei, Jinliang and Xie, Pengtao and Xing, Eric P},
+  booktitle={Proceedings of USENIX Annual Technical Conference 2017(USENIX ATC 17)},
+  pages={181--193},
+  year={2017}
+}
+
+
+@inproceedings{krizhevsky2012imagenet,
+  title={Imagenet classification with deep convolutional neural networks},
+  author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  booktitle={Proceedings of Advances in neural information processing systems},
+  pages={1097--1105},
+  year={2012}
+}
+
+@Misc{grpc,
+title = {{gRPC - A High-Performance, Open-Source Universal RPC
+Framework}},
+howpublished = {\url{https://www.grpc.io/}},
+note = "[Online; accessed July-2022]",
+}
+
+
+@Misc{pipedreamcode,
+title = {{The Code Repo for PipeDream: Pipeline Parallelism for DNN Training}},
+howpublished = {\url{https://github.com/msr-fiddle/pipedream}},
+note = "[Online; accessed July-2022]",
+}
+
+
+
+@Misc{thrust,
+title = {{The API reference guide for Thrust, the CUDA C++ template library.}},
+howpublished = {\url{https://docs.nvidia.com/cuda/thrust/index.html}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{nielsenlaw,
+title = {{Nielsen’s Law Will Outlive Moore’s Law}},
+author = {Blyler, John},
+howpublished = {\url{https://www.chipestimate.com/Nielsens-Law-Will-Outlive-Moores-Law/blogs/2382}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{opensourceversion,
+title = {{Code of HiPress}},
+howpublished = {\url{https://gitlab.com/hipress20/hipress
+}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{horovoddgc,
+title = {{Deep gradient compression implementation in the common layer using CUDA}},
+howpublished = {\url{https://github.com/horovod/horovod/pull/453
+}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{tensorflowmesh,
+title = {{Mesh TensorFlow - Model Parallelism Made Easier}},
+howpublished = {\url{https://github.com/tensorflow/mesh
+}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{dataparallelAzure,
+title = {{Distributed training of deep learning models on Azure}},
+howpublished = {\url{https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/training-deep-learning
+}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{NVIDIAV100,
+title = {{NVIDIA TESLA V100 The First Tensor Core GPU}},
+howpublished = {\url{https://www.nvidia.com/en-gb/data-center/tesla-v100/}},
+note = "[Online; accessed July-2022]",
+}
+
+@Misc{wikitext-2,
+title = {{The wikitext long term dependency language modeling dataset}},
+author = {Merity, Stephen},
+howpublished = {\url{https://www.salesforce.com/products/einstein/ai-research/the-wikitext-dependency-language-modeling-dataset/
+}},
+note = "[Online; accessed July-2022]",
+}
+
+
+
+@inproceedings{li2019accelerating,
+author = {Li, Youjie and Liu, Iou-Jen and Yuan, Yifan and Chen, Deming and Schwing, Alexander and Huang, Jian},
+title = {Accelerating Distributed Reinforcement Learning with In-Switch Computing},
+year = {2019},
+isbn = {9781450366694},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3307650.3322259},
+doi = {10.1145/3307650.3322259},
+booktitle = {Proceedings of the 46th International Symposium on Computer Architecture},
+pages = {279–291},
+numpages = {13},
+keywords = {in-switch accelerator, distributed machine learning, in-network computing, reinforcement learning},
+location = {Phoenix, Arizona},
+series = {ISCA ’19}
+}
+
+@inproceedings{zinkevich2010BSP,
+author = {Zinkevich, Martin A. and Weimer, Markus and Smola, Alex and Li, Lihong},
+title = {Parallelized Stochastic Gradient Descent},
+year = {2010},
+address = {Red Hook, NY, USA},
+booktitle = {Proceedings of the 23rd International Conference on Neural Information Processing Systems - Volume 2},
+pages = {2595–2603},
+numpages = {9},
+location = {Vancouver, British Columbia, Canada}
+}
+
+@inproceedings{Chen2016RevisitDSGD,
+title	= {Revisiting Distributed Synchronous SGD},
+author	= {Jianmin Chen and Rajat Monga and Samy Bengio and Rafal Jozefowicz},
+year	= {2016},
+URL	= {https://arxiv.org/abs/1604.00981},
+booktitle	= {Proceedings of International Conference on Learning Representations Workshop Track}
+}
+
+@inproceedings{Cui2016GeePS,
+author = {Cui, Henggang and Zhang, Hao and Ganger, Gregory R. and Gibbons, Phillip B. and Xing, Eric P.},
+title = {GeePS: Scalable Deep Learning on Distributed GPUs with a GPU-Specialized Parameter Server},
+year = {2016},
+isbn = {9781450342407},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2901318.2901323},
+doi = {10.1145/2901318.2901323},
+booktitle = {Proceedings of the Eleventh European Conference on Computer Systems},
+articleno = {4},
+numpages = {16},
+location = {London, United Kingdom},
+series = {EuroSys ’16}
+}
+@inproceedings{xue2019fast,
+  title={Fast Distributed Deep Learning over RDMA},
+  author={Xue, Jilong and Miao, Youshan and Chen, Cheng and Wu, Ming and Zhang, Lintao and Zhou, Lidong},
+  booktitle={Proceedings of the Fourteenth EuroSys Conference 2019},
+  pages={1--14},
+  year={2019}
+}
+
+@inproceedings{Narayanan2019PipeDream,
+author = {Narayanan, Deepak and Harlap, Aaron and Phanishayee, Amar and Seshadri, Vivek and Devanur, Nikhil R. and Ganger, Gregory R. and Gibbons, Phillip B. and Zaharia, Matei},
+title = {PipeDream: Generalized Pipeline Parallelism for DNN Training},
+year = {2019},
+isbn = {9781450368735},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3341301.3359646},
+doi = {10.1145/3341301.3359646},
+booktitle = {Proceedings of the 27th ACM Symposium on Operating Systems Principles},
+pages = {1–15},
+numpages = {15},
+location = {Huntsville, Ontario, Canada},
+series = {SOSP ’19}
+}
+
+
+@inproceedings {Xiao2018Gandiva,
+author = {Wencong Xiao and Romil Bhardwaj and Ramachandran Ramjee and Muthian Sivathanu and Nipun Kwatra and Zhenhua Han and Pratyush Patel and Xuan Peng and Hanyu Zhao and Quanlu Zhang and Fan Yang and Lidong Zhou},
+title = {Gandiva: Introspective Cluster Scheduling for Deep Learning},
+booktitle = {Proceedings of 13th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 18)},
+year = {2018},
+isbn = {978-1-939133-08-3},
+address = {Carlsbad, CA},
+pages = {595--610},
+url = {https://www.usenix.org/conference/osdi18/presentation/xiao},
+publisher = {{USENIX} Association},
+month = oct,
+}
+
+@inproceedings {Trishul2014Adam,
+author = {Trishul Chilimbi and Yutaka Suzue and Johnson Apacible and Karthik Kalyanaraman},
+title = {Project Adam: Building an Efficient and Scalable Deep Learning Training System},
+booktitle = {Proceedings of 11th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 14)},
+year = {2014},
+isbn = { 978-1-931971-16-4},
+address = {Broomfield, CO},
+pages = {571--582},
+url = {https://www.usenix.org/conference/osdi14/technical-sessions/presentation/chilimbi},
+publisher = {{USENIX} Association},
+month = oct,
+}
+
+@inproceedings{Wang2018Tofu,
+author = {Wang, Minjie and Huang, Chien-chin and Li, Jinyang},
+title = {Supporting Very Large Models Using Automatic Dataflow Graph Partitioning},
+year = {2019},
+isbn = {9781450362818},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3302424.3303953},
+doi = {10.1145/3302424.3303953},
+booktitle = {Proceedings of the Fourteenth EuroSys Conference 2019},
+articleno = {26},
+numpages = {17},
+location = {Dresden, Germany},
+series = {EuroSys ’19}
+}
+
+@article{Wang2018UnifiedParallel,
+  author    = {Minjie Wang and
+               Chien{-}Chin Huang and
+               Jinyang Li},
+  title     = {Unifying Data, Model and Hybrid Parallelism in Deep Learning via Tensor
+               Tiling},
+  journal   = {CoRR},
+  volume    = {abs/1805.04170},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1805.04170},
+  archivePrefix = {arXiv},
+  eprint    = {1805.04170},
+  timestamp = {Thu, 21 Nov 2019 11:22:45 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1805-04170.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{dai2015petuum,
+author = {Xing, Eric P. and Ho, Qirong and Dai, Wei and Kim, Jin-Kyu and Wei, Jinliang and Lee, Seunghak and Zheng, Xun and Xie, Pengtao and Kumar, Abhimanu and Yu, Yaoliang},
+title = {Petuum: A New Platform for Distributed Machine Learning on Big Data},
+year = {2015},
+isbn = {9781450336642},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2783258.2783323},
+doi = {10.1145/2783258.2783323},
+booktitle = {Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+pages = {1335–1344},
+numpages = {10},
+keywords = {model-parallelism, big model, theory, data-parallelism, machine learning, big data, distributed systems},
+location = {Sydney, NSW, Australia},
+series = {KDD ’15}
+}
+
+@inproceedings{wei2015managed,
+  title={Managed communication and consistency for fast data-parallel iterative analytics},
+  author={Wei, Jinliang and Dai, Wei and Qiao, Aurick and Ho, Qirong and Cui, Henggang and Ganger, Gregory R and Gibbons, Phillip B and Gibson, Garth A and Xing, Eric P},
+  booktitle={Proceedings of the Sixth ACM Symposium on Cloud Computing},
+  pages={381--394},
+  year={2015},
+  organization={ACM}
+}
+@inproceedings{sun2019communication,
+  title={Communication-efficient distributed learning via lazily aggregated quantized gradients},
+  author={Sun, Jun and Chen, Tianyi and Giannakis, Georgios and Yang, Zaiyue},
+  booktitle={Proceedings of Advances in Neural Information Processing Systems},
+  pages={3365--3375},
+  year={2019}
+}
+@article{bernstein2018signsgd,
+  title={signSGD: Compressed optimisation for non-convex problems},
+  author={Bernstein, Jeremy and Wang, Yu-Xiang and Azizzadenesheli, Kamyar and Anandkumar, Anima},
+  journal={arXiv preprint arXiv:1802.04434},
+  year={2018}
+}
+
+@article{Pascanu2012Clipping,
+  author    = {Razvan Pascanu and
+               Tomas Mikolov and
+               Yoshua Bengio},
+  title     = {Understanding the exploding gradient problem},
+  journal   = {CoRR},
+  volume    = {abs/1211.5063},
+  year      = {2012},
+  url       = {http://arxiv.org/abs/1211.5063},
+  archivePrefix = {arXiv},
+  eprint    = {1211.5063},
+  timestamp = {Mon, 13 Aug 2018 16:47:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1211-5063.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tac/BentivogliMDDG09,
+  author    = {Luisa Bentivogli and
+               Bernardo Magnini and
+               Ido Dagan and
+               Hoa Trang Dang and
+               Danilo Giampiccolo},
+  title     = {The Fifth {PASCAL} Recognizing Textual Entailment Challenge},
+  booktitle = {Proceedings of the Second Text Analysis Conference, {TAC} 2009, Gaithersburg,
+               Maryland, USA, November 16-17, 2009},
+  publisher = {{NIST}},
+  year      = {2009},
+  url       = {https://tac.nist.gov/publications/2009/additional.papers/RTE5\_overview.proceedings.pdf},
+  timestamp = {Tue, 20 Aug 2019 13:25:24 +0200},
+  biburl    = {https://dblp.org/rec/conf/tac/BentivogliMDDG09.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+  
+
+  
+
+% ============================== Swap listed below: =============================
+
+
+
+@inproceedings{huang2020swapadvisor,
+author = {Huang, Chien-Chin and Jin, Gu and Li, Jinyang},
+title = {SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping},
+year = {2020},
+isbn = {9781450371025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3373376.3378530},
+doi = {10.1145/3373376.3378530},
+booktitle = {Proceedings of the Twenty-Fifth International Conference on Architectural Support for Programming Languages and Operating Systems},
+pages = {1341–1355},
+numpages = {15},
+keywords = {scheduling and resource management, gpu, deep learning systems},
+location = {Lausanne, Switzerland},
+series = {ASPLOS '20}
+}
+
+@Misc{aiandcompute,
+title = {{AI and Compute}},
+howpublished = {\url{https://openai.com/blog/ai-and-compute/}},
+note = "[Online; accessed Jan-2022]",
+}
+
+@article{xu2021gspmd,
+  title={GSPMD: General and Scalable Parallelization for ML Computation Graphs},
+  author={Xu, Yuanzhong and Lee, HyoukJoong and Chen, Dehao and Hechtman, Blake and Huang, Yanping and Joshi, Rahul and Krikun, Maxim and Lepikhin, Dmitry and Ly, Andy and Maggioni, Marcello and others},
+  journal={arXiv preprint arXiv:2105.04663},
+  year={2021}
+}
+
+@inproceedings{fan2021dapple,
+  title={DAPPLE: A pipelined data parallel approach for training large models},
+  author={Fan, Shiqing and Rong, Yi and Meng, Chen and Cao, Zongyan and Wang, Siyu and Zheng, Zhen and Wu, Chuan and Long, Guoping and Yang, Jun and Xia, Lixue and others},
+  booktitle={Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+  pages={431--445},
+  year={2021}
+}
+
+@article{zeng2021pangu,
+  author    = {Wei Zeng and
+               Xiaozhe Ren and
+               Teng Su and
+               Hui Wang and
+               Yi Liao and
+               Zhiwei Wang and
+               Xin Jiang and
+               ZhenZhang Yang and
+               Kaisheng Wang and
+               Xiaoda Zhang and
+               Chen Li and
+               Ziyan Gong and
+               Yifan Yao and
+               Xinjing Huang and
+               Jun Wang and
+               Jianfeng Yu and
+               Qi Guo and
+               Yue Yu and
+               Yan Zhang and
+               Jin Wang and
+               Hengtao Tao and
+               Dasen Yan and
+               Zexuan Yi and
+               Fang Peng and
+               Fangqing Jiang and
+               Han Zhang and
+               Lingfeng Deng and
+               Yehong Zhang and
+               Zhe Lin and
+               Chao Zhang and
+               Shaojie Zhang and
+               Mingyue Guo and
+               Shanzhi Gu and
+               Gaojun Fan and
+               Yaowei Wang and
+               Xuefeng Jin and
+               Qun Liu and
+               Yonghong Tian},
+  title     = {PanGu-{\(\alpha\)}: Large-scale Autoregressive Pretrained Chinese
+               Language Models with Auto-parallel Computation},
+  journal   = {CoRR},
+  volume    = {abs/2104.12369},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2104.12369},
+  eprinttype = {arXiv},
+  eprint    = {2104.12369},
+  timestamp = {Wed, 01 Sep 2021 15:28:19 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2104-12369.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{rasley2020deepspeed,
+  title={Deepspeed: System optimizations enable training deep learning models with over 100 billion parameters},
+  author={Rasley, Jeff and Rajbhandari, Samyam and Ruwase, Olatunji and He, Yuxiong},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+  pages={3505--3506},
+  year={2020}
+}
+
+@inproceedings{narayanan2021efficient,
+  title={Efficient large-scale language model training on GPU clusters using megatron-LM},
+  author={Narayanan, Deepak and Shoeybi, Mohammad and Casper, Jared and LeGresley, Patrick and Patwary, Mostofa and Korthikanti, Vijay and Vainbrand, Dmitri and Kashinkunti, Prethvi and Bernauer, Julie and Catanzaro, Bryan and others},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={1--15},
+  year={2021}
+}
+
+@article{kim2020torchgpipe,
+  title={torchgpipe: On-the-fly pipeline parallelism for training giant models},
+  author={Kim, Chiheon and Lee, Heungsub and Jeong, Myungryong and Baek, Woonhyuk and Yoon, Boogeon and Kim, Ildoo and Lim, Sungbin and Kim, Sungwoong},
+  journal={arXiv preprint arXiv:2004.09910},
+  year={2020}
+}
+
+@article{micikevicius2017mixed,
+  title={Mixed precision training},
+  author={Micikevicius, Paulius and Narang, Sharan and Alben, Jonah and Diamos, Gregory and Elsen, Erich and Garcia, David and Ginsburg, Boris and Houston, Michael and Kuchaiev, Oleksii and Venkatesh, Ganesh and others},
+  journal={arXiv preprint arXiv:1710.03740},
+  year={2017}
+}
+
+@article{jin2018layer,
+  title={Layer-centric memory reuse and data migration for extreme-scale deep learning on many-core architectures},
+  author={Jin, Hai and Liu, Bo and Jiang, Wenbin and Ma, Yang and Shi, Xuanhua and He, Bingsheng and Zhao, Shaofeng},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={15},
+  number={3},
+  pages={1--26},
+  year={2018},
+  publisher={ACM New York, NY, USA}
+}
+
+
+@article{rajpurkar2016squad,
+  title={Squad: 100,000+ questions for machine comprehension of text},
+  author={Rajpurkar, Pranav and Zhang, Jian and Lopyrev, Konstantin and Liang, Percy},
+  journal={arXiv preprint arXiv:1606.05250},
+  year={2016}
+}
+
+@inproceedings{deng2009imagenet,
+  title={Imagenet: A large-scale hierarchical image database},
+  author={Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and Fei-Fei, Li},
+  booktitle={2009 IEEE conference on computer vision and pattern recognition},
+  pages={248--255},
+  year={2009},
+  organization={Ieee}
+}
+
+
+@Misc{SQuAD,
+title = {{Stanford Question Answering Dataset v1.1}},
+howpublished = {\url{https://rajpurkar.github.io/SQuAD-explorer/explore/1.1/dev/}}
+}
+
+
+
+@Misc{Wikipedia,
+title = {{Wikipedia Dataset}},
+howpublished = {\url{https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2}}
+}
+@Misc{Imagenet,
+title = {{Imagenet 2012 Dataset}},
+howpublished = {\url{https://www.image-net.org/}}
+}
+
+@inproceedings{jiang2020unified,
+  title={A Unified Architecture for Accelerating Distributed $\{$DNN$\}$ Training in Heterogeneous $\{$GPU/CPU$\}$ Clusters},
+  author={Jiang, Yimin and Zhu, Yibo and Lan, Chang and Yi, Bairen and Cui, Yong and Guo, Chuanxiong},
+  booktitle={14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20)},
+  pages={463--479},
+  year={2020}
+}
+
+@article{lepikhin2020gshard,
+  title={Gshard: Scaling giant models with conditional computation and automatic sharding},
+  author={Lepikhin, Dmitry and Lee, HyoukJoong and Xu, Yuanzhong and Chen, Dehao and Firat, Orhan and Huang, Yanping and Krikun, Maxim and Shazeer, Noam and Chen, Zhifeng},
+  journal={arXiv preprint arXiv:2006.16668},
+  year={2020}
+}
+
+@inproceedings{wang2019supporting,
+  title={Supporting very large models using automatic dataflow graph partitioning},
+  author={Wang, Minjie and Huang, Chien-chin and Li, Jinyang},
+  booktitle={Proceedings of the Fourteenth EuroSys Conference 2019},
+  pages={1--17},
+  year={2019}
+}
+
+@article{shazeer2018mesh,
+  title={Mesh-tensorflow: Deep learning for supercomputers},
+  author={Shazeer, Noam and Cheng, Youlong and Parmar, Niki and Tran, Dustin and Vaswani, Ashish and Koanantakool, Penporn and Hawkins, Peter and Lee, HyoukJoong and Hong, Mingsheng and Young, Cliff and others},
+  journal={Advances in neural information processing systems},
+  volume={31},
+  year={2018}
+}
+
+@inproceedings{gao2020estimating,
+  title={Estimating gpu memory consumption of deep learning models},
+  author={Gao, Yanjie and Liu, Yu and Zhang, Hongyu and Li, Zhengxian and Zhu, Yonghao and Lin, Haoxiang and Yang, Mao},
+  booktitle={Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={1342--1352},
+  year={2020}
+}
+
+@Misc{bertgithub,
+title = {{Bert from Google Research}},
+howpublished = {\url{https://github.com/google-research/bert}}
+}
+
+
+@inproceedings{ren2019performance,
+  title={Performance analysis of deep learning workloads on leading-edge systems},
+  author={Ren, Yihui and Yoo, Shinjae and Hoisie, Adolfy},
+  booktitle={2019 IEEE/ACM Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems (PMBS)},
+  pages={103--113},
+  year={2019},
+  organization={IEEE}
+}
+
+@Misc{dgxwhitepaper,
+title = {{White Paper for DGX-1 with Tesla V100}},
+howpublished = {\url{https://images.nvidia.com/content/pdf/dgx1-v100-system-architecture-whitepaper.pdf}}
+}
+
+@Misc{awsp324xlarge,
+title = {{Introducing to P3.24xlarge of AWS}},
+howpublished = {\url{https://aws.amazon.com/about-aws/whats-new/2019/10/introducing-amazon-sagemaker-mlp3dn24xlarge-instances/}}
+}
+
+@Misc{mpressopensource,
+title = {{Code of MPress}},
+howpublished = {\url{https://gitlab.com/MPressX/mpress}}
+}
+
+
+
+@Misc{pytorchbert,
+title = {{PyTorch Pretrained Bert}},
+howpublished = {\url{https://github.com/Meelfy/pytorch_pretrained_BERT}}
+}
+
+@Misc{bertconfigdapple,
+title = {{Partioning Strategies for ResNet50 in PipeDream with 8 GPUs }},
+howpublished = {\url{https://github.com/msr-fiddle/pipedream/blob/pipedream/runtime/image_classification/models/resnet50/gpus%3D8/hybrid_conf.json}}
+}
+
+
+@misc{Zheng2022Alpa,
+      title={Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning}, 
+      author={Lianmin Zheng and Zhuohan Li and Hao Zhang and Yonghao Zhuang and Zhifeng Chen and Yanping Huang and Yida Wang and Yuanzhong Xu and Danyang Zhuo and Joseph E. Gonzalez and Ion Stoica},
+      year={2022},
+      eprint={2201.12023},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+
+@article{megatron-lm,
+  author    = {Mohammad Shoeybi and
+               Mostofa Patwary and
+               Raul Puri and
+               Patrick LeGresley and
+               Jared Casper and
+               Bryan Catanzaro},
+  title     = {Megatron-LM: Training Multi-Billion Parameter Language Models Using
+               Model Parallelism},
+  journal   = {CoRR},
+  volume    = {abs/1909.08053},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1909.08053},
+  eprinttype = {arXiv},
+  eprint    = {1909.08053},
+  timestamp = {Tue, 24 Sep 2019 11:33:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1909-08053.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{zero-infinity,
+author = {Rajbhandari, Samyam and Ruwase, Olatunji and Rasley, Jeff and Smith, Shaden and He, Yuxiong},
+title = {ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning},
+year = {2021},
+isbn = {9781450384421},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3458817.3476205},
+doi = {10.1145/3458817.3476205},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {59},
+numpages = {14},
+location = {St. Louis, Missouri},
+series = {SC '21}
+}
+
+
+@inproceedings{hsu2020initial,
+  title={An Initial Assessment of NVSHMEM for High Performance Computing},
+  author={Hsu, Chung-Hsing and Imam, Neena and Langer, Akhil and Potluri, Sreeram and Newburn, Chris J},
+  booktitle={2020 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+  pages={1--10},
+  year={2020},
+  organization={IEEE}
+}
+
+@Misc{NVSHMEM,
+title = {{NVSHMEM Homepage}},
+howpublished = {\url{https://developer.nvidia.com/nvshmem}},
+}
+
+@Misc{DeepSpeedCode,
+title = {{DeepSpeed Code Repository}},
+howpublished = {\url{https://github.com/microsoft/DeepSpeed}},
+}
+
+
+@article{li2022harmony,
+  title={Harmony: Overcoming the hurdles of GPU memory capacity to train massive DNN models on commodity servers},
+  author={Li, Youjie and Phanishayee, Amar and Murray, Derek and Tarnawski, Jakub and Kim, Nam Sung},
+  journal={arXiv preprint arXiv:2202.01306},
+  year={2022}
+}
+
+@inproceedings{chen2021cswap,
+  title={CSWAP: A Self-Tuning Compression Framework for Accelerating Tensor Swapping in GPUs},
+  author={Chen, Ping and He, Shuibing and Zhang, Xuechen and Chen, Shuaiben and Hong, Peiyi and Yin, Yanlong and Sun, Xian-He and Chen, Gang},
+  booktitle={2021 IEEE International Conference on Cluster Computing (CLUSTER)},
+  pages={271--282},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{Kaplan2020Scaling,
+  author    = {Jared Kaplan and
+               Sam McCandlish and
+               Tom Henighan and
+               Tom B. Brown and
+               Benjamin Chess and
+               Rewon Child and
+               Scott Gray and
+               Alec Radford and
+               Jeffrey Wu and
+               Dario Amodei},
+  title     = {Scaling Laws for Neural Language Models},
+  journal   = {CoRR},
+  volume    = {abs/2001.08361},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2001.08361},
+  eprinttype = {arXiv},
+  eprint    = {2001.08361},
+  timestamp = {Wed, 03 Jun 2020 10:55:13 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2001-08361.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{han2021pre,
+  title={Pre-trained models: Past, present and future},
+  author={Han, Xu and Zhang, Zhengyan and Ding, Ning and Gu, Yuxian and Liu, Xiao and Huo, Yuqi and Qiu, Jiezhong and Yao, Yuan and Zhang, Ao and Zhang, Liang and others},
+  journal={AI Open},
+  volume={2},
+  pages={225--250},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{tayEfficientTransformersSurvey2022,
+  title = {Efficient {{Transformers}}: {{A Survey}}},
+  shorttitle = {Efficient {{Transformers}}},
+  author = {Tay, Yi and Dehghani, Mostafa and Bahri, Dara and Metzler, Donald},
+  year = {2022},
+  month = mar,
+  journal = {arXiv:2009.06732 [cs]},
+  eprint = {2009.06732},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  archiveprefix = {arXiv}
+}
+
+
