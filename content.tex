@@ -1,12 +1,10 @@
 \section{Content}
 \subsection{Parallelism}
-ZeRO~\cite{zero}
 
-ZeRO-Offload~\cite{zero-offload}
+Compared to model parallleism, these techniques (ZeRO~\cite{zero}, Offload~\cite{zero-offload}, Infinity~\cite{zero-infinity}), which are based on data parallelism~\cite{megatron-lm}, are less efficient and do not scale well to a large numbers of GPUs and are thus a better fit for finetuning models in resource-constrained environments.~\cite{megatron3}
 
-ZeRO-Infinity~\cite{zero-infinity}\
+Present work reduces the activation memory required to fit the model.~\cite{megatron3}
 
-Megatron-lm~\cite{megatron-lm}
+Build up an approximate formula for the FLOPs and memory required to store activations of a transformer model.~\cite{megatron3}
 
-GPipe~\cite{gpipe}
-\label{sect:introv1}
+Self-attention suffers from quadratic memory requirements with respect to the sequence length.~\cite{li2021sequence}
